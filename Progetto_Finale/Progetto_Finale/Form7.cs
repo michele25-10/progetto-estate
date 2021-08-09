@@ -75,6 +75,89 @@ namespace Progetto_Finale
             Program.GestioneClassifica[a, 1] = Program.GestioneClassifica[b, 1];
             Program.GestioneClassifica[b, 1] = tempUsername;
         }
+
+        Random random = new Random();
+        Random x = new Random();    //chiamo e inizializzo tutta la parte inerente al random per le generazioni degli scarafaggi  nelle coordinate e nelle tipologie
+        Random y = new Random();
+        int coordinataX = 0, coordinataY = 0;
+        bool orizzontale = false;
+        bool verticale = false;
+        private void ScarafaggioNero_btn_Click(object sender, EventArgs e)
+        {
+            int TipoScarafaggio = random.Next(1, 4);
+            switch (TipoScarafaggio)
+            {
+                case 1:
+                    PuntoDiPartenza();
+                    if (orizzontale == true)
+                    {
+                        ScarafaggioNero_btn.Left -= coordinataX;
+                    }
+                    if (verticale == true)
+                    {
+                        ScarafaggioNero_btn.Top -= coordinataY;
+                    }
+                    break;
+
+                case 2:
+                    PuntoDiPartenza();
+                    if (orizzontale == true)
+                    {
+                        ScarafaggioVerde_btn.Left -= coordinataX;
+                    }
+                    if (verticale == true)
+                    {
+                        ScarafaggioVerde_btn.Top -= coordinataY;
+                    }
+                    ScarafaggioRosso_btn.Visible = false;
+                    ScarafaggioNero_btn.Visible = false;//Sparisce scarafaggio nero
+                    ScarafaggioVerde_btn.Visible = true;//Compare Scarafaggio verde
+                    break;
+
+                case 3:
+                    PuntoDiPartenza();
+                    if (orizzontale == true)
+                    {
+                        ScarafaggioRosso_btn.Left -= coordinataX;
+                    }
+                    if (verticale == true)
+                    {
+                        ScarafaggioRosso_btn.Top -= coordinataY;
+                    }
+                    ScarafaggioVerde_btn.Visible = false;
+                    ScarafaggioNero_btn.Visible = false;
+                    ScarafaggioRosso_btn.Visible = true;
+                    break;
+            }
+            Program.ScarafaggiNeriSchiacciati = Program.ScarafaggiNeriSchiacciati + 1;
+            Program.Punti = Program.Punti + 1;
+            Punteggio_txt.Text = Program.Punti.ToString();
+            orizzontale = false;
+            verticale = false;
+        }
+        private void PuntoDiPartenza()
+        {
+            int xOy = random.Next(1, 3);
+            switch(xOy)
+            {
+                case 1:             //Lo scarafaggio parte da sinistra a destra
+                    orizzontale = true;
+                    for (int i = 0; i < 5; i++)
+                    {
+                        coordinataX = x.Next(63, 418);
+                    }
+                    break;
+
+                case 2:             //Lo scarafaggio parte dal basso verso l'alto
+                    verticale = true;
+                    for (int i = 0; i < 5; i++)
+                    {
+                        coordinataY = y.Next(10, 819);
+                    }
+                    break;
+            }
+
+        }
     }
 }
 

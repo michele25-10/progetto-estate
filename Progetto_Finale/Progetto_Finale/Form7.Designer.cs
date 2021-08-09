@@ -39,6 +39,12 @@
             timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
+            // timer
+            // 
+            timer.Enabled = true;
+            timer.Interval = 1000;
+            timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
             // Punteggio_txt
             // 
             this.Punteggio_txt.AutoSize = true;
@@ -76,11 +82,12 @@
             this.ScarafaggioNero_btn.BackgroundImage = global::Progetto_Finale.Properties.Resources.ScarafaggioNero_;
             this.ScarafaggioNero_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ScarafaggioNero_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ScarafaggioNero_btn.Location = new System.Drawing.Point(288, 282);
+            this.ScarafaggioNero_btn.Location = new System.Drawing.Point(819, 418);
             this.ScarafaggioNero_btn.Name = "ScarafaggioNero_btn";
             this.ScarafaggioNero_btn.Size = new System.Drawing.Size(72, 64);
             this.ScarafaggioNero_btn.TabIndex = 4;
             this.ScarafaggioNero_btn.UseVisualStyleBackColor = false;
+            this.ScarafaggioNero_btn.Click += new System.EventHandler(this.ScarafaggioNero_btn_Click);
             // 
             // ScarafaggioVerde_btn
             // 
@@ -93,6 +100,7 @@
             this.ScarafaggioVerde_btn.Size = new System.Drawing.Size(73, 64);
             this.ScarafaggioVerde_btn.TabIndex = 5;
             this.ScarafaggioVerde_btn.UseVisualStyleBackColor = false;
+            this.ScarafaggioVerde_btn.Visible = false;
             // 
             // ScarafaggioRosso_btn
             // 
@@ -105,19 +113,14 @@
             this.ScarafaggioRosso_btn.Size = new System.Drawing.Size(82, 64);
             this.ScarafaggioRosso_btn.TabIndex = 6;
             this.ScarafaggioRosso_btn.UseVisualStyleBackColor = false;
-            // 
-            // timer
-            // 
-            timer.Enabled = true;
-            timer.Interval = 1000;
-            timer.Tick += new System.EventHandler(this.timer_Tick);
+            this.ScarafaggioRosso_btn.Visible = false;
             // 
             // Form_Schermata_Gioco_Difficile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Progetto_Finale.Properties.Resources.Schermata_gioco_sfondo;
-            this.ClientSize = new System.Drawing.Size(1062, 556);
+            this.ClientSize = new System.Drawing.Size(903, 494);
             this.Controls.Add(this.ScarafaggioRosso_btn);
             this.Controls.Add(this.ScarafaggioVerde_btn);
             this.Controls.Add(this.ScarafaggioNero_btn);

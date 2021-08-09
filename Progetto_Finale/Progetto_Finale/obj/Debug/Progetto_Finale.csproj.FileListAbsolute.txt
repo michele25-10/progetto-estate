@@ -38,3 +38,21 @@ C:\Users\Studente\Desktop\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Fin
 C:\Users\Studente\Desktop\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.csproj.GenerateResource.Cache
 C:\Users\Studente\Desktop\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.exe
 C:\Users\Studente\Desktop\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.pdb
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\bin\Debug\Progetto_Finale.exe.config
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\bin\Debug\Progetto_Finale.exe
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\bin\Debug\Progetto_Finale.pdb
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.csprojAssemblyReference.cache
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.Form_Schermata_iniziale.resources
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.Form_Schermata_Gioco.resources
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.Form_Schermata_Pausa.resources
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.Form_Schermata_Punteggio.resources
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.Form_Schermata_Classifica.resources
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.Form_Modalità_Di_Gioco.resources
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.Form_Schermata_Gioco_Difficile.resources
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.Form_Schermata_Punteggio_Difficile.resources
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.Form_Schermata_Classifica_Difficile.resources
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.Properties.Resources.resources
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.csproj.GenerateResource.cache
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.csproj.CoreCompileInputs.cache
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.exe
+C:\Users\Michele Gabrieli\OneDrive\Documenti\GitHub\progetto-estate\Progetto_Finale\Progetto_Finale\obj\Debug\Progetto_Finale.pdb
