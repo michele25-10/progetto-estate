@@ -23,7 +23,7 @@ namespace Progetto_Finale
         private void Play_btn_Click(object sender, EventArgs e)
         {
             Program.Giocate = Program.Giocate + 1;
-
+            Program.NomePlayer = Convert.ToString(NomePlayer_txt.Text);
             Program.GestioneClassifica[Program.Giocate-1, 1] = Convert.ToString(NomePlayer_txt.Text); //salvo nell'array il nome del player
 
             if (Program.Giocate == 1)

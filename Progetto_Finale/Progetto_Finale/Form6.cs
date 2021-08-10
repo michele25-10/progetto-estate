@@ -19,6 +19,10 @@ namespace Progetto_Finale
 
         private void Facile_btn_Click(object sender, EventArgs e)
         {
+            Program.Giocate = Program.Giocate + 1;
+            Program.GestioneClassifica[Program.Giocate - 1, 1] = Program.NomePlayer; //salvo nell'array il nome del player
+            Program.NomePlayer = "";
+
             Form_Schermata_Gioco GiocoFacile = new Form_Schermata_Gioco();
             GiocoFacile.Show();
             this.Hide();
@@ -26,6 +30,10 @@ namespace Progetto_Finale
 
         private void Difficile_btn_Click(object sender, EventArgs e)
         {
+            Program.GiocateDifficili = Program.GiocateDifficili + 1;
+            Program.GestioneClassificaDifficile[Program.GiocateDifficili - 1, 1] = Program.NomePlayer;
+            Program.NomePlayer = "";
+
             Form_Schermata_Gioco_Difficile GiocoDifficile = new Form_Schermata_Gioco_Difficile();
             GiocoDifficile.Show();
             this.Hide();
