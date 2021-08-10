@@ -41,26 +41,26 @@ namespace Progetto_Finale
 
             if (Program.Giocate == 1)       //se c'è stato solamente una partita... scrivo solo nella prima riga
             {
-                Classifica_dgv.Rows[0].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 1, 1];  //dato che l'array è ordinato in maniera crescente scrivo gli ultimi livelli dell'array
-                Classifica_dgv.Rows[0].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 1, 2];
+                Classifica_dgv.Rows[0].Cells[1].Value = Program.GestioneClassificaDifficile[Program.GiocateDifficili - 1, 1];  //dato che l'array è ordinato in maniera crescente scrivo gli ultimi livelli dell'array
+                Classifica_dgv.Rows[0].Cells[2].Value = Program.GestioneClassificaDifficile[Program.GiocateDifficili - 1, 2];
             }
 
             if (Program.Giocate == 2)        //se sono state fatte due partita... scrivo solo nelle due righe
             {
-                Classifica_dgv.Rows[0].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 1, 1];  //dato che l'array è ordinato in maniera crescente scrivo gli ultimi livelli dell'array
-                Classifica_dgv.Rows[0].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 1, 2];
-                Classifica_dgv.Rows[1].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 2, 1];
-                Classifica_dgv.Rows[1].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 2, 2];
+                Classifica_dgv.Rows[0].Cells[1].Value = Program.GestioneClassificaDifficile[Program.GiocateDifficili - 1, 1];  //dato che l'array è ordinato in maniera crescente scrivo gli ultimi livelli dell'array
+                Classifica_dgv.Rows[0].Cells[2].Value = Program.GestioneClassificaDifficile[Program.GiocateDifficili - 1, 2];
+                Classifica_dgv.Rows[1].Cells[1].Value = Program.GestioneClassificaDifficile[Program.GiocateDifficili - 2, 1];
+                Classifica_dgv.Rows[1].Cells[2].Value = Program.GestioneClassificaDifficile[Program.GiocateDifficili - 2, 2];
             }
 
             if (Program.Giocate >= 3)       //se sono state fatte più di tre partita... scrivo solo nelle 3 righe
             {
-                Classifica_dgv.Rows[0].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 1, 1];  //dato che l'array è ordinato in maniera crescente scrivo gli ultimi livelli dell'array
-                Classifica_dgv.Rows[0].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 1, 2];
-                Classifica_dgv.Rows[1].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 2, 1];
-                Classifica_dgv.Rows[1].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 2, 2];
-                Classifica_dgv.Rows[2].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 3, 1];
-                Classifica_dgv.Rows[2].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 3, 2];
+                Classifica_dgv.Rows[0].Cells[1].Value = Program.GestioneClassificaDifficile[Program.GiocateDifficili - 1, 1];  //dato che l'array è ordinato in maniera crescente scrivo gli ultimi livelli dell'array
+                Classifica_dgv.Rows[0].Cells[2].Value = Program.GestioneClassificaDifficile[Program.GiocateDifficili - 1, 2];
+                Classifica_dgv.Rows[1].Cells[1].Value = Program.GestioneClassificaDifficile[Program.GiocateDifficili - 2, 1];
+                Classifica_dgv.Rows[1].Cells[2].Value = Program.GestioneClassificaDifficile[Program.GiocateDifficili - 2, 2];
+                Classifica_dgv.Rows[2].Cells[1].Value = Program.GestioneClassificaDifficile[Program.GiocateDifficili - 3, 1];
+                Classifica_dgv.Rows[2].Cells[2].Value = Program.GestioneClassificaDifficile[Program.GiocateDifficili - 3, 2];
             }
         }
     }

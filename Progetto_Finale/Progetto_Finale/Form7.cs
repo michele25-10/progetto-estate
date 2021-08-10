@@ -155,7 +155,7 @@ namespace Progetto_Finale
                     break;
             }
             Program.ScarafaggiVerdiSchiacciati = Program.ScarafaggiVerdiSchiacciati + 1;
-            Program.Punti = Program.Punti + 1;
+            Program.Punti = Program.Punti + 3;
             Punteggio_txt.Text = Program.Punti.ToString();
             orizzontale = false;
             verticale = false;
@@ -217,7 +217,7 @@ namespace Progetto_Finale
                     break;
             }
             Program.ScarafaggiRossiSchiacciati = Program.ScarafaggiRossiSchiacciati + 1;
-            Program.Punti = Program.Punti + 1;
+            Program.Punti = Program.Punti + 5;
             Punteggio_txt.Text = Program.Punti.ToString();
             orizzontale = false;
             verticale = false;
