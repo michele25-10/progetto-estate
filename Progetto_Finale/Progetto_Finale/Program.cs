@@ -8,11 +8,12 @@ namespace Progetto_Finale
 {
     static class Program
     {
-        public static int Giocate;
+        public static int Giocate, GiocateDifficili;
         public static int Punti; //variabili globali
         public static string NomePlayer;
         public static int ScarafaggiNeriSchiacciati, ScarafaggiVerdiSchiacciati, ScarafaggiRossiSchiacciati;
-        public static string[,] GestioneClassifica = new string[50, 3];        
+        public static string[,] GestioneClassifica = new string[50, 3];
+        public static string[,] GestioneClassificaDifficile = new string[50, 3];
 
         /// <summary>
         /// Punto di ingresso principale dell'applicazione.
