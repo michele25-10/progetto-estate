@@ -49,18 +49,20 @@
             // 
             this.Punteggio_txt.AutoSize = true;
             this.Punteggio_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Punteggio_txt.Location = new System.Drawing.Point(417, 28);
+            this.Punteggio_txt.Location = new System.Drawing.Point(556, 34);
+            this.Punteggio_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Punteggio_txt.Name = "Punteggio_txt";
-            this.Punteggio_txt.Size = new System.Drawing.Size(0, 25);
+            this.Punteggio_txt.Size = new System.Drawing.Size(0, 31);
             this.Punteggio_txt.TabIndex = 1;
             // 
             // Timer_txt
             // 
             this.Timer_txt.AutoSize = true;
             this.Timer_txt.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Timer_txt.Location = new System.Drawing.Point(740, 28);
+            this.Timer_txt.Location = new System.Drawing.Point(987, 34);
+            this.Timer_txt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Timer_txt.Name = "Timer_txt";
-            this.Timer_txt.Size = new System.Drawing.Size(0, 25);
+            this.Timer_txt.Size = new System.Drawing.Size(0, 31);
             this.Timer_txt.TabIndex = 2;
             // 
             // Pausa_btn
@@ -69,9 +71,10 @@
             this.Pausa_btn.BackgroundImage = global::Progetto_Finale.Properties.Resources.pause__1_;
             this.Pausa_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Pausa_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Pausa_btn.Location = new System.Drawing.Point(12, 12);
+            this.Pausa_btn.Location = new System.Drawing.Point(16, 15);
+            this.Pausa_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Pausa_btn.Name = "Pausa_btn";
-            this.Pausa_btn.Size = new System.Drawing.Size(57, 45);
+            this.Pausa_btn.Size = new System.Drawing.Size(76, 55);
             this.Pausa_btn.TabIndex = 3;
             this.Pausa_btn.UseVisualStyleBackColor = false;
             this.Pausa_btn.Click += new System.EventHandler(this.Pausa_btn_Click);
@@ -82,9 +85,10 @@
             this.ScarafaggioNero_btn.BackgroundImage = global::Progetto_Finale.Properties.Resources.ScarafaggioNero_;
             this.ScarafaggioNero_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ScarafaggioNero_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ScarafaggioNero_btn.Location = new System.Drawing.Point(209, 282);
+            this.ScarafaggioNero_btn.Location = new System.Drawing.Point(1095, 516);
+            this.ScarafaggioNero_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ScarafaggioNero_btn.Name = "ScarafaggioNero_btn";
-            this.ScarafaggioNero_btn.Size = new System.Drawing.Size(72, 64);
+            this.ScarafaggioNero_btn.Size = new System.Drawing.Size(96, 79);
             this.ScarafaggioNero_btn.TabIndex = 4;
             this.ScarafaggioNero_btn.UseVisualStyleBackColor = false;
             this.ScarafaggioNero_btn.Click += new System.EventHandler(this.ScarafaggioNero_btn_Click);
@@ -95,9 +99,10 @@
             this.ScarafaggioVerde_btn.BackgroundImage = global::Progetto_Finale.Properties.Resources.bruco;
             this.ScarafaggioVerde_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ScarafaggioVerde_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ScarafaggioVerde_btn.Location = new System.Drawing.Point(436, 282);
+            this.ScarafaggioVerde_btn.Location = new System.Drawing.Point(581, 347);
+            this.ScarafaggioVerde_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ScarafaggioVerde_btn.Name = "ScarafaggioVerde_btn";
-            this.ScarafaggioVerde_btn.Size = new System.Drawing.Size(73, 64);
+            this.ScarafaggioVerde_btn.Size = new System.Drawing.Size(97, 79);
             this.ScarafaggioVerde_btn.TabIndex = 5;
             this.ScarafaggioVerde_btn.UseVisualStyleBackColor = false;
             this.ScarafaggioVerde_btn.Visible = false;
@@ -109,9 +114,10 @@
             this.ScarafaggioRosso_btn.BackgroundImage = global::Progetto_Finale.Properties.Resources.ScarafaggioRossoForm;
             this.ScarafaggioRosso_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ScarafaggioRosso_btn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ScarafaggioRosso_btn.Location = new System.Drawing.Point(564, 282);
+            this.ScarafaggioRosso_btn.Location = new System.Drawing.Point(752, 347);
+            this.ScarafaggioRosso_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ScarafaggioRosso_btn.Name = "ScarafaggioRosso_btn";
-            this.ScarafaggioRosso_btn.Size = new System.Drawing.Size(82, 64);
+            this.ScarafaggioRosso_btn.Size = new System.Drawing.Size(109, 79);
             this.ScarafaggioRosso_btn.TabIndex = 6;
             this.ScarafaggioRosso_btn.UseVisualStyleBackColor = false;
             this.ScarafaggioRosso_btn.Visible = false;
@@ -119,16 +125,17 @@
             // 
             // Form_Schermata_Gioco_Difficile
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Progetto_Finale.Properties.Resources.Schermata_gioco_sfondo;
-            this.ClientSize = new System.Drawing.Size(903, 494);
+            this.ClientSize = new System.Drawing.Size(1204, 608);
             this.Controls.Add(this.ScarafaggioRosso_btn);
             this.Controls.Add(this.ScarafaggioVerde_btn);
             this.Controls.Add(this.ScarafaggioNero_btn);
             this.Controls.Add(this.Pausa_btn);
             this.Controls.Add(this.Timer_txt);
             this.Controls.Add(this.Punteggio_txt);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form_Schermata_Gioco_Difficile";
             this.Text = "Form7";
             this.ResumeLayout(false);
