@@ -27,10 +27,14 @@ namespace Progetto_Finale
             if (CreazioneClassifica == 1)
             {
                 Classifica_dgv.Rows.Add();
-                Classifica_dgv.Rows.Add(); //creo le 3 righe
+                Classifica_dgv.Rows.Add();
+                Classifica_dgv.Rows.Add();
+                Classifica_dgv.Rows.Add(); //creo le 5 righe
                 Classifica_dgv.Rows[0].Cells[0].Value = "1";
                 Classifica_dgv.Rows[1].Cells[0].Value = "2";        //scrivo la classifica
                 Classifica_dgv.Rows[2].Cells[0].Value = "3";
+                Classifica_dgv.Rows[2].Cells[0].Value = "4";
+                Classifica_dgv.Rows[2].Cells[0].Value = "5";
             }
 
             if (Program.Giocate == 1)       //se c'è stato solamente una partita... scrivo solo nella prima riga
@@ -47,7 +51,7 @@ namespace Progetto_Finale
                 Classifica_dgv.Rows[1].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 2, 2];
             }
 
-            if (Program.Giocate >= 3)       //se sono state fatte più di tre partita... scrivo solo nelle 3 righe
+            if (Program.Giocate == 3)       //se sono state fatte più di tre partita... scrivo solo nelle 3 righe
             {
                 Classifica_dgv.Rows[0].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 1, 1];  //dato che l'array è ordinato in maniera crescente scrivo gli ultimi livelli dell'array
                 Classifica_dgv.Rows[0].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 1, 2];
@@ -55,6 +59,33 @@ namespace Progetto_Finale
                 Classifica_dgv.Rows[1].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 2, 2];
                 Classifica_dgv.Rows[2].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 3, 1];
                 Classifica_dgv.Rows[2].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 3, 2];
+            }
+
+            if (Program.Giocate == 4)       //se sono state fatte più di tre partita... scrivo solo nelle 4 righe
+            {
+                Classifica_dgv.Rows[0].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 1, 1];  //dato che l'array è ordinato in maniera crescente scrivo gli ultimi livelli dell'array
+                Classifica_dgv.Rows[0].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 1, 2];
+                Classifica_dgv.Rows[1].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 2, 1];
+                Classifica_dgv.Rows[1].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 2, 2];
+                Classifica_dgv.Rows[2].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 3, 1];
+                Classifica_dgv.Rows[2].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 3, 2];
+                Classifica_dgv.Rows[3].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 4, 1];
+                Classifica_dgv.Rows[3].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 4, 2];
+            }
+
+
+            if (Program.Giocate >= 5)       //se sono state fatte più di tre partita... scrivo solo nelle 4 righe
+            {
+                Classifica_dgv.Rows[0].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 1, 1];  //dato che l'array è ordinato in maniera crescente scrivo gli ultimi livelli dell'array
+                Classifica_dgv.Rows[0].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 1, 2];
+                Classifica_dgv.Rows[1].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 2, 1];
+                Classifica_dgv.Rows[1].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 2, 2];
+                Classifica_dgv.Rows[2].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 3, 1];
+                Classifica_dgv.Rows[2].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 3, 2];
+                Classifica_dgv.Rows[3].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 4, 1];
+                Classifica_dgv.Rows[3].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 4, 2];
+                Classifica_dgv.Rows[4].Cells[1].Value = Program.GestioneClassifica[Program.Giocate - 5, 1];
+                Classifica_dgv.Rows[4].Cells[2].Value = Program.GestioneClassifica[Program.Giocate - 5, 2];
             }
         }
 
