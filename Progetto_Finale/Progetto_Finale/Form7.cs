@@ -44,12 +44,14 @@ namespace Progetto_Finale
                     PuntoDiPartenza();
                     if (orizzontale == true)
                     {
-                        ScarafaggioNero_btn.Location = new Point(10, coordinataY);
+                        //ScarafaggioNero_btn.Location = new Point(10, coordinataY);
                         ScarafaggioNero_btn.Left += coordinataX;
+                        ScarafaggioNero_btn.Top += coordinataY;
                     }
                     if (verticale == true)
                     {
-                        ScarafaggioNero_btn.Location = new Point(coordinataX, 418);
+                        //ScarafaggioNero_btn.Location = new Point(coordinataX, 418);
+                        ScarafaggioNero_btn.Left -= coordinataX;
                         ScarafaggioNero_btn.Top -= coordinataY;
                     }
                     break;
@@ -58,14 +60,16 @@ namespace Progetto_Finale
                     PuntoDiPartenza();
                     if (orizzontale == true)
                     {
-                        ScarafaggioVerde_btn.Location = new Point(10, coordinataY);
+                        //ScarafaggioVerde_btn.Location = new Point(10, coordinataY);
                         ScarafaggioVerde_btn.Visible = true;//Compare Scarafaggio verde
                         ScarafaggioVerde_btn.Left += coordinataX;
+                        ScarafaggioVerde_btn.Top += coordinataY;
                     }
                     if (verticale == true)
                     {
-                        ScarafaggioVerde_btn.Location = new Point(coordinataX, 418);
+                        //ScarafaggioVerde_btn.Location = new Point(coordinataX, 418);
                         ScarafaggioVerde_btn.Visible = true;//Compare Scarafaggio verde
+                        ScarafaggioVerde_btn.Left -= coordinataX;
                         ScarafaggioVerde_btn.Top -= coordinataY;
                     }
                     ScarafaggioRosso_btn.Visible = false;
@@ -77,14 +81,16 @@ namespace Progetto_Finale
                     PuntoDiPartenza();
                     if (orizzontale == true)
                     {
-                        ScarafaggioRosso_btn.Location = new Point(10, coordinataY);
+                        //ScarafaggioRosso_btn.Location = new Point(10, coordinataY);
                         ScarafaggioRosso_btn.Visible = true;
                         ScarafaggioRosso_btn.Left += coordinataX;
+                        ScarafaggioRosso_btn.Top += coordinataY;
                     }
                     if (verticale == true)
                     {
-                        ScarafaggioRosso_btn.Location = new Point(coordinataX, 418);
+                        //ScarafaggioRosso_btn.Location = new Point(coordinataX, 418);
                         ScarafaggioRosso_btn.Visible = true;
+                        ScarafaggioRosso_btn.Left -= coordinataX;
                         ScarafaggioRosso_btn.Top -= coordinataY;
                     }
                     ScarafaggioVerde_btn.Visible = false;
@@ -109,14 +115,15 @@ namespace Progetto_Finale
                     ScarafaggioVerde_btn.Visible = false;
                     if (orizzontale == true)
                     {
-                        //ScarafaggioNero_btn.Location = new Point(10, coordinataY);
                         ScarafaggioNero_btn.Visible = true;
                         ScarafaggioNero_btn.Left += coordinataX;
+                        ScarafaggioNero_btn.Top += coordinataY;
                     }
                     if (verticale == true)
                     {
                         //ScarafaggioNero_btn.Location = new Point(coordinataX, 418);
                         ScarafaggioNero_btn.Visible = true;
+                        ScarafaggioNero_btn.Left -= coordinataX;
                         ScarafaggioNero_btn.Top -= coordinataY;
                     }
                     ScarafaggioRosso_btn.Visible = false;
@@ -128,10 +135,12 @@ namespace Progetto_Finale
                     {
                         //ScarafaggioVerde_btn.Location = new Point(10, coordinataY);
                         ScarafaggioVerde_btn.Left += coordinataX;
+                        ScarafaggioVerde_btn.Top += coordinataY;
                     }
                     if (verticale == true)
                     {
                         //ScarafaggioVerde_btn.Location = new Point(coordinataX, 418);
+                        ScarafaggioVerde_btn.Left -= coordinataX;
                         ScarafaggioVerde_btn.Top -= coordinataY;
                     }
                     break;
@@ -144,11 +153,13 @@ namespace Progetto_Finale
                         //ScarafaggioRosso_btn.Location = new Point(10, coordinataY);
                         ScarafaggioRosso_btn.Visible = true;
                         ScarafaggioRosso_btn.Left += coordinataX;
+                        ScarafaggioRosso_btn.Top += coordinataY;
                     }
                     if (verticale == true)
                     {
                         //ScarafaggioRosso_btn.Location = new Point(coordinataX, 418);
                         ScarafaggioRosso_btn.Visible = true;
+                        ScarafaggioRosso_btn.Left -= coordinataX;
                         ScarafaggioRosso_btn.Top -= coordinataY;
                     }
                     ScarafaggioNero_btn.Visible = false;
@@ -171,14 +182,16 @@ namespace Progetto_Finale
                     ScarafaggioRosso_btn.Visible = false;
                     if (orizzontale == true)
                     {
-                        ScarafaggioNero_btn.Location = new Point(10, coordinataY);
+                        //ScarafaggioNero_btn.Location = new Point(10, coordinataY);
                         ScarafaggioNero_btn.Visible = true;
                         ScarafaggioNero_btn.Left += coordinataX;
+                        ScarafaggioNero_btn.Top += coordinataY;
                     }
                     if (verticale == true)
                     {
-                        ScarafaggioNero_btn.Location = new Point(coordinataX, 418);
+                        //ScarafaggioNero_btn.Location = new Point(coordinataX, 418);
                         ScarafaggioNero_btn.Visible = true;
+                        ScarafaggioNero_btn.Left -= coordinataX;
                         ScarafaggioNero_btn.Top -= coordinataY;
                     }
                     ScarafaggioVerde_btn.Visible = false;
@@ -189,14 +202,16 @@ namespace Progetto_Finale
                     ScarafaggioRosso_btn.Visible = false;
                     if (orizzontale == true)
                     {
-                        ScarafaggioVerde_btn.Location = new Point(10, coordinataY);
+                        //ScarafaggioVerde_btn.Location = new Point(10, coordinataY);
                         ScarafaggioVerde_btn.Visible = true;
                         ScarafaggioVerde_btn.Left += coordinataX;
+                        ScarafaggioVerde_btn.Top += coordinataY;
                     }
                     if (verticale == true)
                     {
-                        ScarafaggioVerde_btn.Location = new Point(coordinataX, 418);
+                        //ScarafaggioVerde_btn.Location = new Point(coordinataX, 418);
                         ScarafaggioVerde_btn.Visible = true;
+                        ScarafaggioVerde_btn.Left -= coordinataX;
                         ScarafaggioVerde_btn.Top -= coordinataY;
                     }
                     ScarafaggioNero_btn.Visible = false;
@@ -206,12 +221,14 @@ namespace Progetto_Finale
                     PuntoDiPartenza();
                     if (orizzontale == true)
                     {
-                        ScarafaggioRosso_btn.Location = new Point(10, coordinataY);
+                        //ScarafaggioRosso_btn.Location = new Point(10, coordinataY);
                         ScarafaggioRosso_btn.Left += coordinataX;
+                        ScarafaggioRosso_btn.Top += coordinataY;
                     }
                     if (verticale == true)
                     {
-                        ScarafaggioRosso_btn.Location = new Point(coordinataX, 418);
+                        //ScarafaggioRosso_btn.Location = new Point(coordinataX, 418);
+                        ScarafaggioRosso_btn.Left -= coordinataX;
                         ScarafaggioRosso_btn.Top -= coordinataY;
                     }
                     break;
