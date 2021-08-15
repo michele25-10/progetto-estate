@@ -174,6 +174,9 @@ namespace Progetto_Finale
                     }
                 }
 
+                j = 0;
+                i = 0;
+
                 Form_Schermata_Punteggio Punteggio = new Form_Schermata_Punteggio();
                 Punteggio.Show();
                 this.Close();

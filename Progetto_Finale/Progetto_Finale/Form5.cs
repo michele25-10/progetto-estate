@@ -33,8 +33,8 @@ namespace Progetto_Finale
                 Classifica_dgv.Rows[0].Cells[0].Value = "1";
                 Classifica_dgv.Rows[1].Cells[0].Value = "2";        //scrivo la classifica
                 Classifica_dgv.Rows[2].Cells[0].Value = "3";
-                Classifica_dgv.Rows[2].Cells[0].Value = "4";
-                Classifica_dgv.Rows[2].Cells[0].Value = "5";
+                Classifica_dgv.Rows[3].Cells[0].Value = "4";
+                Classifica_dgv.Rows[4].Cells[0].Value = "5";
             }
 
             if (Program.Giocate == 1)       //se c'è stato solamente una partita... scrivo solo nella prima riga

@@ -44,7 +44,7 @@ namespace Progetto_Finale
         {
             RipristinoVariabili();
 
-            Form_Schermata_Classifica Classifica = new Form_Schermata_Classifica();
+            Form_Schermata_Classifica_Difficile Classifica = new Form_Schermata_Classifica_Difficile();
             Classifica.Show();
             this.Hide();
         }

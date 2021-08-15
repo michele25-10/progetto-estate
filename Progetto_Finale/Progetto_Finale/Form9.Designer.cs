@@ -89,6 +89,7 @@
             this.Controls.Add(this.Classifica_dgv);
             this.Name = "Form_Schermata_Classifica_Difficile";
             this.Text = "Form9";
+            this.Load += new System.EventHandler(this.Form_Schermata_Classifica_Difficile_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Classifica_dgv)).EndInit();
             this.ResumeLayout(false);
 

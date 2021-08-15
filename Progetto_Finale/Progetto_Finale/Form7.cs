@@ -17,7 +17,7 @@ namespace Progetto_Finale
             InitializeComponent();
         }
 
-        int secondi = 60;
+        int secondi = 5;
         Random random = new Random();
         Random x = new Random();    //chiamo e inizializzo tutta la parte inerente al random per le generazioni degli scarafaggi  nelle coordinate e nelle tipologie
         Random y = new Random();
